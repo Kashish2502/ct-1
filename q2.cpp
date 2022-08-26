@@ -42,10 +42,7 @@ bool Consecutive(int arr[], int n)
 {
 	
 	sort(arr,arr+n);
-    for (int i = 0; i < n; i++)
-    {
-        cout<<arr[i];
-    }
+    
 	
 	for(int i=1;i<n;i++)
 	{
